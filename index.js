@@ -20,4 +20,6 @@ console.log(hand)
 ////// DECK ////////
 
 let deck = new Deck()
-console.log(deck.generateCards())
+//console.log(deck.generateCards())
+
+console.log(deck.shuffleCards())

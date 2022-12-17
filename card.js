@@ -46,8 +46,8 @@ class Deck {
   generateCards() {
     this.arrOfRanks = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
     this.arrOfSuits = [' of Hearts', ' of Diamonds', ' of Spades', ' of Clubs']
-    // this.arrofCards =
 
+    //creating deck of 52 cards
     let allCards = []
     for (const rank of this.arrOfRanks) {
       allCards.push(rank + this.arrOfSuits[0])
@@ -55,6 +55,18 @@ class Deck {
       allCards.push(rank + this.arrOfSuits[2])
       allCards.push(rank + this.arrOfSuits[3])
     }
+    this.arrOfCards = allCards
     return allCards
+  }
+
+  shuffleCards() {
+    //console.log(this.generateCards()) //arr of all cards
+    //randomize order of cards created in generateCards()
+    //return random order of cards
+
+    //randomize an array
+    let allCardsArr = this.generateCards()
+    const shuffledArray = allCardsArr.sort(() => 0.5 - Math.random())
+    console.log('shuffled', shuffledArray)
   }
 }
