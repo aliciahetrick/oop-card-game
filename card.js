@@ -42,21 +42,19 @@ class Deck {
     this.arrOfSuits = arrOfSuits
     this.arrOfCards = arrOfCards
   }
+
   generateCards() {
     this.arrOfRanks = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
     this.arrOfSuits = [' of Hearts', ' of Diamonds', ' of Spades', ' of Clubs']
     // this.arrofCards =
 
-    for (let i = 0; i < this.arrOfRanks.length; i++) {
-      //console.log(this.arrOfRanks[i])
-      let row = []
-      row.push(this.arrOfRanks)
-      console.log(row)
-      for (let j = 0; i < this.arrOfSuits.length; j++) {
-        // console.log(this.arrOfSuits[j])
-      }
+    let allCards = []
+    for (const rank of this.arrOfRanks) {
+      allCards.push(rank + this.arrOfSuits[0])
+      allCards.push(rank + this.arrOfSuits[1])
+      allCards.push(rank + this.arrOfSuits[2])
+      allCards.push(rank + this.arrOfSuits[3])
     }
-
-    //populate the deck with an initial array of cards
+    return allCards
   }
 }
