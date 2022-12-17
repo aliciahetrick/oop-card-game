@@ -18,3 +18,6 @@ console.log(played3spades)
 console.log(hand)
 
 ////// DECK ////////
+
+let deck = new Deck()
+console.log(deck.generateCards())

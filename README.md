@@ -1,4 +1,4 @@
-Phase 1: Base classes
+## Phase 1: Base classes
 
 Write the following three classes. Remember that each class should have a constructor that initializes the properties. Some classes might also have methods that you will need to implement. Be sure to use this when referring to a property or method.
 
@@ -19,7 +19,7 @@ Write the following three classes. Remember that each class should have a constr
 
 ///////////////////////////////////////////////////////////////////////
 
-Phase 2: Game mechanics
+## Phase 2: Game mechanics
 
 You will be implementing the logic for a card game of your choice. Some examples of games are:
 
@@ -52,7 +52,7 @@ When does a player win or lose?
 
 ///////////////////////////////////////////////////////////////////////
 
-Phase 3: The DOM
+## Phase 3: The DOM
 
 In this phase, you will be working on visually representing the Game.
 
