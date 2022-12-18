@@ -10,7 +10,7 @@ Write the following three classes. Remember that each class should have a constr
       addCard(card) will add the given card to the hand.
       playCard(card) will remove and return the specified card from the hand. It should return null if the card is not in the hand.
 
-- [ ] Deck
+- [x] Deck
       A Deck has an array of possible card ranks, an array of possible card suits, and an array of cards. - [x] generateCards() will populate the deck with an initial array of cards. - [x] shuffleCards() will shuffle the cards in the deck. Search online for a shuffle function. You do not need to come up with this yourself. - [x] draw() will remove and return a card from the deck. - [x] deal(numHands, cardsPerHand) will deal cardsPerHand cards to numHands hands.
 
 ///////////////////////////////////////////////////////////////////////
