@@ -13,6 +13,8 @@ Write the following three classes. Remember that each class should have a constr
 - [x] Deck
       A Deck has an array of possible card ranks, an array of possible card suits, and an array of cards. - [x] generateCards() will populate the deck with an initial array of cards. - [x] shuffleCards() will shuffle the cards in the deck. Search online for a shuffle function. You do not need to come up with this yourself. - [x] draw() will remove and return a card from the deck. - [x] deal(numHands, cardsPerHand) will deal cardsPerHand cards to numHands hands.
 
+///////////////////////////////////////
+I have completed instuctions to this point!
 ///////////////////////////////////////////////////////////////////////
 
 ## Phase 2: Game mechanics
