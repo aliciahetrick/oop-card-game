@@ -11,8 +11,7 @@ Write the following three classes. Remember that each class should have a constr
       playCard(card) will remove and return the specified card from the hand. It should return null if the card is not in the hand.
 
 - [ ] Deck
-      A Deck has an array of possible card ranks, an array of possible card suits, and an array of cards. - [x] generateCards() will populate the deck with an initial array of cards. - [ ] shuffleCards() will shuffle the cards in the deck. Search online for a shuffle function. You do not need to come up with this yourself. - [ ] draw() will remove and return a card from the deck.
-      deal(numHands, cardsPerHand) will deal cardsPerHand cards to numHands hands.
+      A Deck has an array of possible card ranks, an array of possible card suits, and an array of cards. - [x] generateCards() will populate the deck with an initial array of cards. - [x] shuffleCards() will shuffle the cards in the deck. Search online for a shuffle function. You do not need to come up with this yourself. - [x] draw() will remove and return a card from the deck. - [x] deal(numHands, cardsPerHand) will deal cardsPerHand cards to numHands hands.
 
 ///////////////////////////////////////////////////////////////////////
 

@@ -60,13 +60,30 @@ class Deck {
   }
 
   shuffleCards() {
-    //console.log(this.generateCards()) //arr of all cards
-    //randomize order of cards created in generateCards()
-    //return random order of cards
-
-    //randomize an array
     let allCardsArr = this.generateCards()
     const shuffledArray = allCardsArr.sort(() => 0.5 - Math.random())
-    console.log('shuffled', shuffledArray)
+    return shuffledArray
+  }
+
+  draw() {
+    //will remove and return a card from the deck.
+    let shuffledCards = this.shuffleCards()
+    let removedCard = shuffledCards.shift()
+    return removedCard
+  }
+
+  deal(numHands, cardsPerHand) {
+    let rows = []
+    for (let i = 0; i < numHands; i++) {
+      rows.push(this.draw())
+      for (let j = 0; j < cardsPerHand - 1; j++) {
+        rows.push(this.draw())
+      }
+    }
+    let dealHands = [
+      [rows[0], rows[1], rows[2]],
+      [rows[3], rows[4], rows[5]],
+    ]
+    return dealHands
   }
 }

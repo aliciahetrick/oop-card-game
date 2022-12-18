@@ -14,12 +14,16 @@ hand.addCard(card9diamonds)
 // console.log(hand)
 
 let played3spades = hand.playCard(card3spades)
-console.log(played3spades)
-console.log(hand)
+// console.log(played3spades)
+// console.log(hand)
 
 ////// DECK ////////
 
 let deck = new Deck()
 //console.log(deck.generateCards())
 
-console.log(deck.shuffleCards())
+//console.log(deck.shuffleCards())
+
+// console.log(deck.draw())
+
+console.log(deck.deal(2, 3))
